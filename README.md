@@ -4,11 +4,11 @@ Status: In Development
 
 ## Install
 
-# Mac:
+Mac:
 - Node: http://blog.teamtreehouse.com/install-node-js-npm-mac
 - Sass: gem install sass
 
-# Windows:
+Windows:
 - Node: http://blog.teamtreehouse.com/install-node-js-npm-windows
 - Ruby: https://rubyinstaller.org/
 - Sass: gem install sass
