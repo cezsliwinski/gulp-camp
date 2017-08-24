@@ -29,6 +29,12 @@ Install Node modules:
 npm install
 ```
 
+Install Gulp globaly:
+
+```bash
+npm install gulp --global
+```
+
 Install Bower modules:
 
 ```bash
