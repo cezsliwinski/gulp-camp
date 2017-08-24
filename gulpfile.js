@@ -65,4 +65,5 @@ gulp.task("serve", function () {
     // compile_plugins();
     gulp.watch(["source/styles/**/*.scss","source/modules/**/css/*.scss"], function(){compile_sass()});
     gulp.watch("source/modules/*/js/*.js", function(){compile_js()});
+    gulp.watch("source/modules/*/html/*.html", function(){compile_html()});
 });
