@@ -2,6 +2,17 @@
 
 Status: In Development
 
+## Install
+
+# Mac:
+- Node: http://blog.teamtreehouse.com/install-node-js-npm-mac
+- Sass: gem install sass
+
+# Windows:
+- Node: http://blog.teamtreehouse.com/install-node-js-npm-windows
+- Ruby: https://rubyinstaller.org/
+- Sass: gem install sass
+
 ## Getting Started
 
 If you have just checked out this repository, you will need to run some commands to get up and running.
