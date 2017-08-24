@@ -35,6 +35,12 @@ Install Gulp globaly:
 npm install gulp --global
 ```
 
+Install Bower globaly:
+
+```bash
+npm install -g bower
+```
+
 Install Bower modules:
 
 ```bash
