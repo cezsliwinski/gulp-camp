@@ -1,0 +1,52 @@
+{
+    "compile" : {
+        "plugin_styles" : {
+            "paths" : [
+                "source/bower_components/flexboxgrid/dist/flexboxgrid.min.css"
+            ]
+        },
+        "plugins_scripts" : {
+            "paths" : [
+                "source/bower_components/jquery/dist/jquery.min.js"
+            ],
+            "file" : "plugins.min.js",
+            "folder" : "./dist/js"
+        },
+        "main_scripts" : {
+            "paths" : [
+                "source/js/main.js",
+                "source/modules/*/js/*.js"
+            ],
+            "file" : "main.min.js",
+            "folder" : "./dist/js/"
+        },
+        "main_styles" : {
+            "paths" : [
+                "source/styles/global.scss",
+                "source/modules/**/css/*.scss"
+            ],
+            "file" : "main.scss",
+            "folder" : "./dist/css"
+        },
+        "html" : {
+            "paths" : "./source/html/*.html",
+            "file" : "main.scss",
+            "folder" : "./dist"
+        },
+        "files" : {
+            "forStyles" : {
+                "paths" : "./source/modules/*/css/files/*",
+                "folder" : "./dist/css/files"
+            },
+            "forHtml" : {
+                "paths" : "./source/modules/*/files/*",
+                "folder" : "./dist/files"
+            }
+        }
+    },
+    "copy" : {
+        "paths" : [
+            "source/bower_components/modernizr/modernizr.js"
+        ]
+    }
+}
